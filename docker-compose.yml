@@ -14,7 +14,7 @@ volumes:
     driver: ${VOLUMES_DRIVER}
 
 services:
-  php-fpm:
+  php:
     build:
       context: ./docker/php
     environment:
@@ -27,46 +27,47 @@ services:
       - mysql
       - redis
 
-  # php-cron:
-    # build:
-    #   context: ./docker/php
-    # environment:
-    #   - LARAVEL_ROLE=cron
-    # volumes:
-    #   - ${APP_CODE_PATH_HOST}:${APP_CODE_PATH_CONTAINER}${APP_CODE_CONTAINER_FLAG}
-    # networks:
-    #   - backend
-    # depends_on:
-    #   - mysql
-    #   - redis
+  php-cron:
+     build:
+       context: ./docker/php
+     environment:
+       - LARAVEL_ROLE=cron
+     volumes:
+       - ${APP_CODE_PATH_HOST}:${APP_CODE_PATH_CONTAINER}${APP_CODE_CONTAINER_FLAG}
+     networks:
+       - backend
+     depends_on:
+       - mysql
+       - redis
+       - php-queue
 
-## Depends on Laravel Horizon package
-  # php-queue:
-  #   build:
-  #     context: ./docker/php
-  #   environment:
-  #     - LARAVEL_ROLE=queue
-  #   volumes:
-  #     - ${APP_CODE_PATH_HOST}:${APP_CODE_PATH_CONTAINER}${APP_CODE_CONTAINER_FLAG}
-  #   networks:
-  #     - backend
-  #   depends_on:
-  #     - mysql
-  #     - redis
+# Depends on Laravel Horizon package
+  php-queue:
+     build:
+       context: ./docker/php
+     environment:
+       - LARAVEL_ROLE=queue
+     volumes:
+       - ${APP_CODE_PATH_HOST}:${APP_CODE_PATH_CONTAINER}${APP_CODE_CONTAINER_FLAG}
+     networks:
+       - backend
+     depends_on:
+       - mysql
+       - redis
 
 ## Depends on laravel websockets package
-  # php-websocket:
-  #   build:
-  #     context: ./docker/php
-  #   environment:
-  #     - LARAVEL_ROLE=websocket
-  #   volumes:
-  #     - ${APP_CODE_PATH_HOST}:${APP_CODE_PATH_CONTAINER}${APP_CODE_CONTAINER_FLAG}
-  #   networks:
-  #     - backend
-  #   depends_on:
-  #     - mysql
-  #     - redis
+  php-websocket:
+     build:
+       context: ./docker/php
+     environment:
+       - LARAVEL_ROLE=websocket
+     volumes:
+       - ${APP_CODE_PATH_HOST}:${APP_CODE_PATH_CONTAINER}${APP_CODE_CONTAINER_FLAG}
+     networks:
+       - backend
+     depends_on:
+       - mysql
+       - redis
 
 
   ### NGINX Server #########################################
@@ -86,10 +87,11 @@ services:
       - ${NGINX_SITES_PATH}:/etc/nginx/sites-available
 #      - ${NGINX_SSL_PATH}:/etc/nginx/ssl
     ports:
-      - "${NGINX_HOST_HTTP_PORT}:80"
-      - "${NGINX_HOST_HTTPS_PORT}:443"
+      - "${NGINX_HOST_HTTP_PORT}:80"       # default: 8080
+      - "${NGINX_HOST_HTTPS_PORT}:443"     # default: 4443
     depends_on:
-      - php-fpm
+      - php
+      - php-websocket
     networks:
       - frontend
       - backend
@@ -136,3 +138,27 @@ services:
       timeout: 45s
       interval: 10s
       retries: 10
+
+  ### Meili Search #########################################
+  meilisearch:
+    build:
+      context: ./docker/meilisearch
+    volumes:
+      - ${DATA_PATH_HOST}/meilisearch:/home/meili/meilifiles
+    ports:
+      - "${MEILI_SEARCH_LOCAL_PORT}:7700"
+    environment:
+      - MEILI_MASTER_KEY=masterKey
+      - MEILI_DB_PATH=./meilifiles
+    networks:
+      - backend
+
+  ### Mail Hog SMTP Server ##################################
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - "${MAIL_HOG_UI_PORT}:8025" # default is 8025
+      - "${MAIL_HOG_SMTP_PORT}:1025" # default is 1025
+    networks:
+      - backend
+      - frontend

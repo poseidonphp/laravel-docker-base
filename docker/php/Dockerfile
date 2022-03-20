@@ -1,5 +1,5 @@
-FROM php:8-fpm
-ARG PHP_VERSION=8.0
+FROM php:8.1-fpm
+ARG PHP_VERSION=8.1
 USER root
 
 #--------------------------------------------------------------------------
@@ -51,7 +51,7 @@ RUN set -xe; \
         autoconf \
         nano
 RUN docker-php-ext-configure zip  && \
-        docker-php-ext-install zip tokenizer xml && \
+        docker-php-ext-install zip xml && \
         php -m | grep -q 'zip'
 
 
@@ -84,8 +84,7 @@ RUN pecl install -o -f redis; \
 RUN docker-php-ext-install pcntl && \
     docker-php-ext-install bcmath && \
     docker-php-ext-install opcache && \
-    docker-php-ext-install mysqli && \
-    docker-php-ext-install tokenizer
+    docker-php-ext-install mysqli
 
 COPY ./opcache.ini /usr/local/etc/php/conf.d/opcache.ini
 

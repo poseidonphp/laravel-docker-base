@@ -24,7 +24,7 @@ RUN set -x ; \
     addgroup -g 82 -S www-data ; \
     adduser -u 82 -D -S -G www-data www-data && exit 0 ; exit 1
 
-ARG PHP_UPSTREAM_CONTAINER=php-fpm
+ARG PHP_UPSTREAM_CONTAINER=php
 ARG PHP_UPSTREAM_PORT=9000
 
 # Create 'messages' file used from 'logrotate'
@@ -38,7 +38,7 @@ RUN echo "upstream php-upstream { server ${PHP_UPSTREAM_CONTAINER}:${PHP_UPSTREA
     && rm /etc/nginx/conf.d/default.conf
 
 RUN mkdir /etc/nginx/ssl
-RUN openssl req -new -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out /etc/nginx/ssl/default.crt -subj "/C=US/ST=MINNESOTA/L=MINNEAPOLIS/O=ERRORNET/CN=errornet.dev" -keyout /etc/nginx/ssl/default.key
+RUN openssl req -new -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out /etc/nginx/ssl/default.crt -subj "/C=US/ST=MINNESOTA/L=MINNEAPOLIS/O=DEVELOPMENT/CN=localhost" -keyout /etc/nginx/ssl/default.key
 
 
 ADD ./startup.sh /opt/startup.sh
