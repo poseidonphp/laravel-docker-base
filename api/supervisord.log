@@ -1,0 +1,442 @@
+2022-03-25 21:58:19,167 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-03-25 21:58:19,170 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-03-25 21:58:19,177 INFO RPC interface 'supervisor' initialized
+2022-03-25 21:58:19,178 INFO RPC interface 'supervisor' initialized
+2022-03-25 21:58:19,182 INFO supervisord started with pid 8
+2022-03-25 21:58:19,186 INFO supervisord started with pid 8
+2022-03-25 21:58:19,631 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-03-25 21:58:19,638 INFO RPC interface 'supervisor' initialized
+2022-03-25 21:58:19,646 INFO supervisord started with pid 8
+2022-03-25 21:58:20,189 INFO spawned: 'laravel-websockets_00' with pid 9
+2022-03-25 21:58:20,191 INFO spawned: 'laravel-horizon_00' with pid 9
+2022-03-25 21:58:20,650 INFO spawnerr: can't find command 'cron'
+2022-03-25 21:58:21,191 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:21,194 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:21,653 INFO spawnerr: can't find command 'cron'
+2022-03-25 21:58:23,563 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:58:23,565 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:58:23,656 INFO spawnerr: can't find command 'cron'
+2022-03-25 21:58:24,568 INFO spawned: 'laravel-horizon_00' with pid 16
+2022-03-25 21:58:24,568 INFO spawned: 'laravel-websockets_00' with pid 16
+2022-03-25 21:58:25,570 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:25,571 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:26,660 INFO spawnerr: can't find command 'cron'
+2022-03-25 21:58:26,661 INFO gave up: laravel-cron_00 entered FATAL state, too many start retries too quickly
+2022-03-25 21:58:27,032 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:58:27,032 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:58:28,038 INFO spawned: 'laravel-horizon_00' with pid 23
+2022-03-25 21:58:28,038 INFO spawned: 'laravel-websockets_00' with pid 23
+2022-03-25 21:58:29,038 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:29,040 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:29,041 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:58:30,015 INFO spawned: 'laravel-websockets_00' with pid 30
+2022-03-25 21:58:30,028 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:58:31,033 INFO spawned: 'laravel-horizon_00' with pid 30
+2022-03-25 21:58:31,989 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:31,990 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:58:32,548 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:32,549 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:58:32,997 INFO spawned: 'laravel-websockets_00' with pid 37
+2022-03-25 21:58:33,553 INFO spawned: 'laravel-horizon_00' with pid 37
+2022-03-25 21:58:34,502 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:34,506 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:58:35,019 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:35,020 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:58:35,512 INFO spawned: 'laravel-websockets_00' with pid 44
+2022-03-25 21:58:36,025 INFO spawned: 'laravel-horizon_00' with pid 44
+2022-03-25 21:58:37,285 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:37,287 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:58:37,563 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:37,565 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:58:38,297 INFO spawned: 'laravel-websockets_00' with pid 51
+2022-03-25 21:58:38,571 INFO spawned: 'laravel-horizon_00' with pid 51
+2022-03-25 21:58:39,845 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:39,846 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:58:40,131 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:40,133 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:58:40,854 INFO spawned: 'laravel-websockets_00' with pid 58
+2022-03-25 21:58:41,138 INFO spawned: 'laravel-horizon_00' with pid 58
+2022-03-25 21:58:42,518 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:42,520 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:58:42,739 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:42,740 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:58:43,527 INFO spawned: 'laravel-websockets_00' with pid 65
+2022-03-25 21:58:43,744 INFO spawned: 'laravel-horizon_00' with pid 65
+2022-03-25 21:58:45,110 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:45,112 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:58:45,416 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:45,417 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:58:46,117 INFO spawned: 'laravel-websockets_00' with pid 72
+2022-03-25 21:58:46,422 INFO spawned: 'laravel-horizon_00' with pid 72
+2022-03-25 21:58:47,615 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:47,616 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:58:47,928 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:47,929 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:58:48,623 INFO spawned: 'laravel-websockets_00' with pid 79
+2022-03-25 21:58:48,934 INFO spawned: 'laravel-horizon_00' with pid 79
+2022-03-25 21:58:50,217 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:50,220 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:58:50,553 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:50,555 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:58:51,226 INFO spawned: 'laravel-websockets_00' with pid 86
+2022-03-25 21:58:51,560 INFO spawned: 'laravel-horizon_00' with pid 86
+2022-03-25 21:58:53,085 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:53,088 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:58:53,369 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:53,370 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:58:54,094 INFO spawned: 'laravel-websockets_00' with pid 93
+2022-03-25 21:58:54,375 INFO spawned: 'laravel-horizon_00' with pid 93
+2022-03-25 21:58:55,770 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:55,772 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:58:56,030 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:56,031 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:58:56,778 INFO spawned: 'laravel-websockets_00' with pid 100
+2022-03-25 21:58:57,035 INFO spawned: 'laravel-horizon_00' with pid 100
+2022-03-25 21:58:58,398 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:58,400 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:58:58,689 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:58:58,690 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:58:59,375 INFO spawned: 'laravel-websockets_00' with pid 107
+2022-03-25 21:58:59,662 INFO spawned: 'laravel-horizon_00' with pid 107
+2022-03-25 21:59:00,994 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:00,996 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:01,263 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:01,266 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:02,004 INFO spawned: 'laravel-websockets_00' with pid 114
+2022-03-25 21:59:02,272 INFO spawned: 'laravel-horizon_00' with pid 114
+2022-03-25 21:59:03,561 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:03,563 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:03,836 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:03,838 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:04,570 INFO spawned: 'laravel-websockets_00' with pid 121
+2022-03-25 21:59:04,843 INFO spawned: 'laravel-horizon_00' with pid 121
+2022-03-25 21:59:06,083 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:06,084 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:06,363 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:06,365 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:07,091 INFO spawned: 'laravel-websockets_00' with pid 128
+2022-03-25 21:59:07,369 INFO spawned: 'laravel-horizon_00' with pid 128
+2022-03-25 21:59:08,586 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:08,587 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:08,868 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:08,869 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:09,592 INFO spawned: 'laravel-websockets_00' with pid 135
+2022-03-25 21:59:09,873 INFO spawned: 'laravel-horizon_00' with pid 135
+2022-03-25 21:59:11,084 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:11,086 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:11,397 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:11,398 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:12,091 INFO spawned: 'laravel-websockets_00' with pid 142
+2022-03-25 21:59:12,403 INFO spawned: 'laravel-horizon_00' with pid 142
+2022-03-25 21:59:13,578 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:13,580 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:13,892 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:13,894 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:14,587 INFO spawned: 'laravel-websockets_00' with pid 149
+2022-03-25 21:59:14,898 INFO spawned: 'laravel-horizon_00' with pid 149
+2022-03-25 21:59:16,059 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:16,060 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:16,366 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:16,368 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:17,066 INFO spawned: 'laravel-websockets_00' with pid 156
+2022-03-25 21:59:17,372 INFO spawned: 'laravel-horizon_00' with pid 156
+2022-03-25 21:59:18,521 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:18,523 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:18,909 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:18,911 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:19,531 INFO spawned: 'laravel-websockets_00' with pid 163
+2022-03-25 21:59:19,918 INFO spawned: 'laravel-horizon_00' with pid 163
+2022-03-25 21:59:20,993 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:20,995 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:21,396 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:21,397 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:22,001 INFO spawned: 'laravel-websockets_00' with pid 170
+2022-03-25 21:59:22,402 INFO spawned: 'laravel-horizon_00' with pid 170
+2022-03-25 21:59:23,488 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:23,491 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:23,878 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:23,879 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:24,498 INFO spawned: 'laravel-websockets_00' with pid 177
+2022-03-25 21:59:24,884 INFO spawned: 'laravel-horizon_00' with pid 177
+2022-03-25 21:59:25,986 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:25,987 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:26,384 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:26,385 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:26,992 INFO spawned: 'laravel-websockets_00' with pid 184
+2022-03-25 21:59:27,391 INFO spawned: 'laravel-horizon_00' with pid 184
+2022-03-25 21:59:28,619 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:28,621 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:28,909 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:28,910 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:29,595 INFO spawned: 'laravel-websockets_00' with pid 191
+2022-03-25 21:59:29,881 INFO spawned: 'laravel-horizon_00' with pid 191
+2022-03-25 21:59:31,072 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:31,074 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:31,354 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:31,356 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:32,081 INFO spawned: 'laravel-websockets_00' with pid 198
+2022-03-25 21:59:32,361 INFO spawned: 'laravel-horizon_00' with pid 198
+2022-03-25 21:59:33,543 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:33,544 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:33,819 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:33,820 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:34,553 INFO spawned: 'laravel-websockets_00' with pid 205
+2022-03-25 21:59:34,824 INFO spawned: 'laravel-horizon_00' with pid 205
+2022-03-25 21:59:36,024 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:36,025 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:36,282 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:36,284 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:37,030 INFO spawned: 'laravel-websockets_00' with pid 212
+2022-03-25 21:59:37,289 INFO spawned: 'laravel-horizon_00' with pid 212
+2022-03-25 21:59:38,503 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:38,504 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:38,747 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:38,748 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:39,512 INFO spawned: 'laravel-websockets_00' with pid 219
+2022-03-25 21:59:39,751 INFO spawned: 'laravel-horizon_00' with pid 219
+2022-03-25 21:59:40,971 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:40,973 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:41,222 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:41,223 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:41,979 INFO spawned: 'laravel-websockets_00' with pid 226
+2022-03-25 21:59:42,227 INFO spawned: 'laravel-horizon_00' with pid 226
+2022-03-25 21:59:43,459 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:43,460 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:43,682 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:43,683 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:44,467 INFO spawned: 'laravel-websockets_00' with pid 233
+2022-03-25 21:59:44,688 INFO spawned: 'laravel-horizon_00' with pid 233
+2022-03-25 21:59:45,953 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:45,954 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:46,154 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:46,155 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:46,959 INFO spawned: 'laravel-websockets_00' with pid 240
+2022-03-25 21:59:47,160 INFO spawned: 'laravel-horizon_00' with pid 240
+2022-03-25 21:59:48,446 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:48,447 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:48,629 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:48,630 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:49,454 INFO spawned: 'laravel-websockets_00' with pid 247
+2022-03-25 21:59:49,634 INFO spawned: 'laravel-horizon_00' with pid 247
+2022-03-25 21:59:50,935 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:50,936 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:51,109 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:51,110 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:51,941 INFO spawned: 'laravel-websockets_00' with pid 254
+2022-03-25 21:59:52,115 INFO spawned: 'laravel-horizon_00' with pid 254
+2022-03-25 21:59:53,431 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:53,433 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:53,585 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:53,587 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:54,438 INFO spawned: 'laravel-websockets_00' with pid 261
+2022-03-25 21:59:54,591 INFO spawned: 'laravel-horizon_00' with pid 261
+2022-03-25 21:59:55,925 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:55,926 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:56,064 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:56,065 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:56,931 INFO spawned: 'laravel-websockets_00' with pid 268
+2022-03-25 21:59:57,070 INFO spawned: 'laravel-horizon_00' with pid 268
+2022-03-25 21:59:58,423 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:58,424 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 21:59:58,554 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 21:59:58,556 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 21:59:59,398 INFO spawned: 'laravel-websockets_00' with pid 275
+2022-03-25 21:59:59,526 INFO spawned: 'laravel-horizon_00' with pid 275
+2022-03-25 22:00:00,874 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:00,876 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:00:01,021 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:01,022 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 22:00:01,883 INFO spawned: 'laravel-websockets_00' with pid 282
+2022-03-25 22:00:02,027 INFO spawned: 'laravel-horizon_00' with pid 282
+2022-03-25 22:00:03,410 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:03,411 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:00:03,572 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:03,574 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 22:00:04,419 INFO spawned: 'laravel-websockets_00' with pid 289
+2022-03-25 22:00:04,578 INFO spawned: 'laravel-horizon_00' with pid 289
+2022-03-25 22:00:05,890 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:05,891 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:00:06,047 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:06,049 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 22:00:06,898 INFO spawned: 'laravel-websockets_00' with pid 296
+2022-03-25 22:00:07,053 INFO spawned: 'laravel-horizon_00' with pid 296
+2022-03-25 22:00:08,382 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:08,383 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:00:08,537 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:08,539 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 22:00:09,389 INFO spawned: 'laravel-websockets_00' with pid 303
+2022-03-25 22:00:09,544 INFO spawned: 'laravel-horizon_00' with pid 303
+2022-03-25 22:00:10,891 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:10,892 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:00:11,045 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:11,046 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 22:00:11,896 INFO spawned: 'laravel-websockets_00' with pid 310
+2022-03-25 22:00:12,051 INFO spawned: 'laravel-horizon_00' with pid 310
+2022-03-25 22:00:13,593 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:13,594 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:00:13,724 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:13,725 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 22:00:14,598 INFO spawned: 'laravel-websockets_00' with pid 317
+2022-03-25 22:00:14,729 INFO spawned: 'laravel-horizon_00' with pid 317
+2022-03-25 22:00:16,196 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:16,197 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:00:16,326 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:16,326 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 22:00:17,201 INFO spawned: 'laravel-websockets_00' with pid 324
+2022-03-25 22:00:17,333 INFO spawned: 'laravel-horizon_00' with pid 324
+2022-03-25 22:00:18,948 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:18,949 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:00:19,070 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:19,072 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 22:00:19,955 INFO spawned: 'laravel-websockets_00' with pid 331
+2022-03-25 22:00:20,078 INFO spawned: 'laravel-horizon_00' with pid 331
+2022-03-25 22:00:21,792 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:21,794 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:00:21,861 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:21,862 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 22:00:22,798 INFO spawned: 'laravel-websockets_00' with pid 338
+2022-03-25 22:00:22,868 INFO spawned: 'laravel-horizon_00' with pid 338
+2022-03-25 22:00:24,704 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:24,705 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:00:24,728 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:24,729 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 22:00:25,710 INFO spawned: 'laravel-websockets_00' with pid 345
+2022-03-25 22:00:25,734 INFO spawned: 'laravel-horizon_00' with pid 345
+2022-03-25 22:00:27,685 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:27,686 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 22:00:27,691 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:27,692 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:00:28,691 INFO spawned: 'laravel-horizon_00' with pid 352
+2022-03-25 22:00:28,698 INFO spawned: 'laravel-websockets_00' with pid 352
+2022-03-25 22:00:30,636 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:30,638 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 22:00:30,663 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:30,663 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:00:31,643 INFO spawned: 'laravel-horizon_00' with pid 359
+2022-03-25 22:00:31,669 INFO spawned: 'laravel-websockets_00' with pid 359
+2022-03-25 22:00:33,571 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:33,574 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 22:00:33,585 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:33,586 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:00:34,580 INFO spawned: 'laravel-horizon_00' with pid 366
+2022-03-25 22:00:34,592 INFO spawned: 'laravel-websockets_00' with pid 366
+2022-03-25 22:00:36,508 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:36,509 INFO exited: laravel-horizon_00 (exit status 1; not expected)
+2022-03-25 22:00:36,523 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:36,524 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:00:37,516 INFO spawned: 'laravel-horizon_00' with pid 373
+2022-03-25 22:00:37,529 INFO spawned: 'laravel-websockets_00' with pid 373
+2022-03-25 22:00:38,519 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:38,532 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:39,580 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:00:40,586 INFO spawned: 'laravel-websockets_00' with pid 380
+2022-03-25 22:00:42,371 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:42,372 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:00:43,379 INFO spawned: 'laravel-websockets_00' with pid 387
+2022-03-25 22:00:45,086 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:45,088 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:00:46,094 INFO spawned: 'laravel-websockets_00' with pid 394
+2022-03-25 22:00:47,746 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:47,748 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:00:48,756 INFO spawned: 'laravel-websockets_00' with pid 401
+2022-03-25 22:00:50,359 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:50,360 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:00:51,367 INFO spawned: 'laravel-websockets_00' with pid 408
+2022-03-25 22:00:52,887 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:52,888 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:00:53,896 INFO spawned: 'laravel-websockets_00' with pid 415
+2022-03-25 22:00:55,381 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:55,384 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:00:56,393 INFO spawned: 'laravel-websockets_00' with pid 422
+2022-03-25 22:00:57,853 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:00:57,855 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:00:58,860 INFO spawned: 'laravel-websockets_00' with pid 429
+2022-03-25 22:01:00,321 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:01:00,322 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:01:01,329 INFO spawned: 'laravel-websockets_00' with pid 436
+2022-03-25 22:01:02,786 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:01:02,787 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:01:03,793 INFO spawned: 'laravel-websockets_00' with pid 443
+2022-03-25 22:01:05,271 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:01:05,272 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:01:06,279 INFO spawned: 'laravel-websockets_00' with pid 450
+2022-03-25 22:01:07,738 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:01:07,740 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:01:08,748 INFO spawned: 'laravel-websockets_00' with pid 457
+2022-03-25 22:01:10,259 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:01:10,261 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:01:11,268 INFO spawned: 'laravel-websockets_00' with pid 464
+2022-03-25 22:01:12,701 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:01:12,702 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:01:13,710 INFO spawned: 'laravel-websockets_00' with pid 471
+2022-03-25 22:01:15,192 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:01:15,193 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:01:16,200 INFO spawned: 'laravel-websockets_00' with pid 478
+2022-03-25 22:01:17,690 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:01:17,692 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:01:18,698 INFO spawned: 'laravel-websockets_00' with pid 485
+2022-03-25 22:01:20,181 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:01:20,183 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:01:21,190 INFO spawned: 'laravel-websockets_00' with pid 492
+2022-03-25 22:01:22,677 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:01:22,679 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:01:23,687 INFO spawned: 'laravel-websockets_00' with pid 499
+2022-03-25 22:01:25,179 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:01:25,180 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:01:26,186 INFO spawned: 'laravel-websockets_00' with pid 506
+2022-03-25 22:01:27,691 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:01:27,692 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:01:28,698 INFO spawned: 'laravel-websockets_00' with pid 513
+2022-03-25 22:01:30,156 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:01:30,158 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:01:31,163 INFO spawned: 'laravel-websockets_00' with pid 520
+2022-03-25 22:01:32,690 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:01:32,691 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:01:33,697 INFO spawned: 'laravel-websockets_00' with pid 527
+2022-03-25 22:01:35,280 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:01:35,280 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:01:36,285 INFO spawned: 'laravel-websockets_00' with pid 534
+2022-03-25 22:01:37,287 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:01:38,333 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:01:39,337 INFO spawned: 'laravel-websockets_00' with pid 541
+2022-03-25 22:01:41,011 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:01:41,012 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:01:42,015 INFO spawned: 'laravel-websockets_00' with pid 548
+2022-03-25 22:01:43,663 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:01:43,663 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:01:44,667 INFO spawned: 'laravel-websockets_00' with pid 555
+2022-03-25 22:01:46,271 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:01:46,272 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:01:47,276 INFO spawned: 'laravel-websockets_00' with pid 562
+2022-03-25 22:01:48,792 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-25 22:01:48,793 INFO exited: laravel-websockets_00 (exit status 1; not expected)
+2022-03-25 22:01:49,797 INFO spawned: 'laravel-websockets_00' with pid 569
+2022-03-25 22:01:51,509 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-26 05:33:10,695 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-03-26 05:33:10,697 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-03-26 05:33:10,701 INFO RPC interface 'supervisor' initialized
+2022-03-26 05:33:10,702 INFO RPC interface 'supervisor' initialized
+2022-03-26 05:33:10,707 INFO supervisord started with pid 8
+2022-03-26 05:33:10,707 INFO supervisord started with pid 9
+2022-03-26 05:33:11,712 INFO spawned: 'laravel-websockets_00' with pid 9
+2022-03-26 05:33:11,714 INFO spawned: 'laravel-horizon_00' with pid 10
+2022-03-26 05:33:13,444 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-26 05:33:13,509 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-27 15:14:54,905 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-03-27 15:14:54,905 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-03-27 15:14:54,916 INFO RPC interface 'supervisor' initialized
+2022-03-27 15:14:54,916 INFO RPC interface 'supervisor' initialized
+2022-03-27 15:14:54,927 INFO supervisord started with pid 8
+2022-03-27 15:14:54,928 INFO supervisord started with pid 8
+2022-03-27 15:14:55,154 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2022-03-27 15:14:55,158 INFO RPC interface 'supervisor' initialized
+2022-03-27 15:14:55,161 INFO supervisord started with pid 8
+2022-03-27 15:14:55,934 INFO spawned: 'laravel-horizon_00' with pid 9
+2022-03-27 15:14:55,936 INFO spawned: 'laravel-websockets_00' with pid 9
+2022-03-27 15:14:56,165 INFO spawnerr: can't find command 'cron'
+2022-03-27 15:14:56,936 INFO success: laravel-horizon_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-27 15:14:56,938 INFO success: laravel-websockets_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2022-03-27 15:14:57,167 INFO spawnerr: can't find command 'cron'
+2022-03-27 15:14:59,170 INFO spawnerr: can't find command 'cron'
+2022-03-27 15:15:02,176 INFO spawnerr: can't find command 'cron'
+2022-03-27 15:15:02,177 INFO gave up: laravel-cron_00 entered FATAL state, too many start retries too quickly
